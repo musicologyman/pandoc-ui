@@ -1,4 +1,3 @@
-import textwrap
 import PySimpleGUI as sg
 from PySimpleGUI.PySimpleGUI import Combo
 
@@ -41,7 +40,8 @@ INPUT_FORMATS = ["bibtex (BibTeX bibliography)",
                     "twiki (TWiki markup)",
                     "vimwiki (Vimwiki)"]
 
-OUTPUT_FORMATS = ["asciidoc (AsciiDoc) or asciidoctor (AsciiDoctor)",
+OUTPUT_FORMATS = ["asciidoc (AsciiDoc)",
+                    "asciidoctor (AsciiDoctor)",
                     "beamer (LaTeX beamer slide show)",
                     "bibtex (BibTeX bibliography)",
                     "biblatex (BibLaTeX bibliography)",
@@ -53,13 +53,15 @@ OUTPUT_FORMATS = ["asciidoc (AsciiDoc) or asciidoctor (AsciiDoctor)",
                     "docbook5 (DocBook 5)",
                     "docx (Word docx)",
                     "dokuwiki (DokuWiki markup)",
-                    "epub or epub3 (EPUB v3 book)",
+                    "epub (EPUB)", 
                     "epub2 (EPUB v2)",
+                    "epub3 (EPUB v3 book)",
                     "fb2 (FictionBook2 e-book)",
                     "gfm (GitHub-Flavored Markdown)",
                     "haddock (Haddock markup)",
-                    "html or html5 (HTML, i.e. HTML5/XHTML polyglot markup)",
+                    "html (HTML)", 
                     "html4 (XHTML 1.0 Transitional)",
+                    "html5 (HTML, i.e. HTML5/XHTML polyglot markup)",
                     "icml (InDesign ICML)",
                     "ipynb (Jupyter notebook)",
                     "jats_archiving (JATS XML, Archiving and Interchange Tag Set)",

@@ -1,0 +1,683 @@
+{
+	"input formats": [{
+		"name": "bibtex",
+		"description": "BibTeX bibliography",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "biblatex",
+		"description": "BibLaTeX bibliography",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "commonmark",
+		"description": "CommonMark Markdown",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "commonmark_x",
+		"description": "CommonMark Markdown with extensions",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "creole",
+		"description": "Creole 1.0",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "csljson",
+		"description": "CSL JSON bibliography",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "csv",
+		"description": "CSV table",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "docbook",
+		"description": "DocBook",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "docx",
+		"description": "Word docx",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "dokuwiki",
+		"description": "DokuWiki markup",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "epub",
+		"description": "EPUB",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "fb2",
+		"description": "FictionBook2 e-book",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "gfm",
+		"description": "GitHub-Flavored Markdown",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "haddock",
+		"description": "Haddock markup",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "html",
+		"description": "HTML",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "ipynb",
+		"description": "Jupyter notebook",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "jats",
+		"description": "JATS XML",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "jira",
+		"description": "Jira/Confluence wiki markup",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "json",
+		"description": "JSON version of native AST",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "latex",
+		"description": "LaTeX",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "markdown",
+		"description": "Pandoc\u2019s Markdown",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "markdown_mmd",
+		"description": "MultiMarkdown",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "markdown_phpextra",
+		"description": "PHP Markdown Extra",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "markdown_strict",
+		"description": "original unextended Markdown",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "mediawiki",
+		"description": "MediaWiki markup",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "man",
+		"description": "roff man",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "muse",
+		"description": "Muse",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "native",
+		"description": "native Haskell",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "odt",
+		"description": "ODT",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "opml",
+		"description": "OPML",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "org",
+		"description": "Emacs Org mode",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "rtf",
+		"description": "Rich Text Format",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "rst",
+		"description": "reStructuredText",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "t2t",
+		"description": "txt2tags",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "textile",
+		"description": "Textile",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "tikiwiki",
+		"description": "TikiWiki markup",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "twiki",
+		"description": "TWiki markup",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "vimwiki",
+		"description": "Vimwiki",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}],
+	"output formats": [{
+		"name": "asciidoc",
+		"description": "AsciiDoc",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "asciidoctor",
+		"description": "AsciiDoctor",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "beamer",
+		"description": "LaTeX beamer slide show",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "bibtex",
+		"description": "BibTeX bibliography",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "biblatex",
+		"description": "BibLaTeX bibliography",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "commonmark",
+		"description": "CommonMark Markdown",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "commonmark_x",
+		"description": "CommonMark Markdown with extensions",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "context",
+		"description": "ConTeXt",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "csljson",
+		"description": "CSL JSON bibliography",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "docbook or docbook4",
+		"description": "DocBook 4",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "docbook5",
+		"description": "DocBook 5",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "docx",
+		"description": "Word docx",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "dokuwiki",
+		"description": "DokuWiki markup",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "epub",
+		"description": "EPUB",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "epub2",
+		"description": "EPUB v2",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "epub3",
+		"description": "EPUB v3 book",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "fb2",
+		"description": "FictionBook2 e-book",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "gfm",
+		"description": "GitHub-Flavored Markdown",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "haddock",
+		"description": "Haddock markup",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "html",
+		"description": "HTML",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "html4",
+		"description": "XHTML 1.0 Transitional",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "html5",
+		"description": "HTML, i.e. HTML5/XHTML polyglot markup",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "icml",
+		"description": "InDesign ICML",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "ipynb",
+		"description": "Jupyter notebook",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "jats_archiving",
+		"description": "JATS XML, Archiving and Interchange Tag Set",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "jats_articleauthoring",
+		"description": "JATS XML, Article Authoring Tag Set",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "jats_publishing",
+		"description": "JATS XML, Journal Publishing Tag Set",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "jats",
+		"description": "alias for jats_archiving",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "jira",
+		"description": "Jira/Confluence wiki markup",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "json",
+		"description": "JSON version of native AST",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "latex",
+		"description": "LaTeX",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "man",
+		"description": "roff man",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "markdown",
+		"description": "Pandoc\u2019s Markdown",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "markdown_mmd",
+		"description": "MultiMarkdown",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "markdown_phpextra",
+		"description": "PHP Markdown Extra",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "markdown_strict",
+		"description": "original unextended Markdown",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "mediawiki",
+		"description": "MediaWiki markup",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "ms",
+		"description": "roff ms",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "muse",
+		"description": "Muse",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "native",
+		"description": "native Haskell",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "odt",
+		"description": "OpenOffice text document",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "opml",
+		"description": "OPML",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "opendocument",
+		"description": "OpenDocument",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "org",
+		"description": "Emacs Org mode",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "pdf",
+		"description": "PDF",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "plain",
+		"description": "plain text",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "pptx",
+		"description": "PowerPoint slide show",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "rst",
+		"description": "reStructuredText",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "rtf",
+		"description": "Rich Text Format",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "texinfo",
+		"description": "GNU Texinfo",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "textile",
+		"description": "Textile",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "slideous",
+		"description": "Slideous HTML and JavaScript slide show",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "slidy",
+		"description": "Slidy HTML and JavaScript slide show",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "dzslides",
+		"description": "DZSlides HTML5 + JavaScript slide show",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "revealjs",
+		"description": "reveal.js HTML5 + JavaScript slide show",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "s5",
+		"description": "S5 HTML and JavaScript slide show",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "tei",
+		"description": "TEI Simple",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "xwiki",
+		"description": "XWiki markup",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}, {
+		"name": "zimwiki",
+		"description": "ZimWiki markup",
+		"visible": false,
+		"category": null,
+		"default_extension": null,
+		"is_default_for_extension": false
+	}]
+}

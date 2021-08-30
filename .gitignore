@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Swap pfiles
+*.swp
+
+# VS Code files
+.vscode/
